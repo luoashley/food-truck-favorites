@@ -1,0 +1,74 @@
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.15);
+}
+
+.card-emoji {
+  width: 100%;
+  height: 160px;
+  background-color: #e0f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5rem;
+}
+
+.card-body {
+  padding: 0.85rem 1rem 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 4px;
+}
+
+.card-name {
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.15rem;
+  color: #1a1a1a;
+  line-height: 1.2;
+}
+
+.card-cuisine {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.card-location {
+  font-size: 0.82rem;
+  color: #888;
+  font-weight: 600;
+}
+
+.btn-menu {
+  display: inline-block;
+  margin-top: 0.75rem;
+  background-color: #E53E3E;
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 0.88rem;
+  padding: 7px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.15s ease, transform 0.1s ease;
+}
+
+.btn-menu:hover {
+  background-color: #C53030;
+  transform: scale(1.04);
+}
